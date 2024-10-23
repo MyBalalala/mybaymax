@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pantai</title>
+    <style>
+        /* Add some basic styling to our gallery */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; /* tambahkan warna latar belakang */
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px; /* tambahkan padding untuk membuat galeri lebih luas */
+        }
+        .gallery .container {
+            background-color: #fff; /* tambahkan warna latar belakang untuk container */
+            padding: 15px;
+            margin: 15px;
+            width: 300px;
+			height: 565px;
+            border: 1px solid #ccc;
+            border-radius: 15px; /* tambahkan radius untuk membuat container lebih bulat */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* tambahkan bayangan untuk membuat container lebih menarik */
+            text-align: center; /* center-align text and images */
+        }
+        .gallery img {
+            width: 270px; /* perbesar ukuran gambar */
+            height: 250px;
+            margin: 10px auto; /* center image with auto margin */
+            border-radius: 15px; /* tambahkan radius untuk membuat gambar lebih bulat */
+            object-fit: cover; /* membuat gambar lebih cantik */
+        }
+        .gallery .caption {
+            font-size: 18px;
+            color: #333;
+            padding: 15px;
+            margin: 15px;
+            font-weight: bold; /* membuat teks lebih tebal */
+        }
+        .deks{
+            text-align: justify;
+            padding: 15px;
+        }
+        .gallery img:hover {
+            transform: scale(1.1); /* tambahkan efek zoom saat gambar dihover */
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+        }
+        .header {
+            background-color: darkolivegreen; /* tambahkan warna latar belakang untuk header */
+            color: #fff; /* tambahkan warna teks untuk header */
+            padding: 25px;
+            text-align: center;
+            font-size: 24px; /* membuat teks lebih besar */
+            font-weight: bold; /* membuat teks lebih tebal */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Organizational Experience</h1>
+    </div>
+    <div class="gallery">
+        <!-- Add your photos here -->
+        <div class="container">
+            <img src="img2/pramuka.jpg" alt="Photo 1">
+            <p class="caption"><b>Pramuka</b></p>
+            <p class="deks">During my junior high school/MTs level I took the Scout 
+            organization at MTs Alkhairat Pusat Palu, I developed important
+            skills in leadership, teamwork, and survival through various 
+            outdoor activities and events. This experience helped me build
+            resilience and a strong sense of responsibility.</p>
+        </div>
+        <div class="container">
+            <img src="img2/osis.jpg" alt="Photo 2">
+            <p class="caption"><b>Osis</b></p>
+            <p class="deks">
+            In high school I also became a member of OSIS at SMA Negeri 4 Palu
+            as the Coordinator of the publication/magazine department, where 
+            I gained valuable experience in event management,collaboration, 
+            and communication while contributing to school activities and 
+            student welfare.</p>
+        </div>
+        <div class="container">
+            <img src="img2/pmps2.jpg" alt="Photo 3">
+            <p class="caption"><b>HMPS Sistem Informasi</b></p>
+            <p class="deks">
+            Saat ini, saya tergabung dalam Departemen Multimedia dan Publikasi
+            di Himpunan Mahasiswa Program Studi Sistem Informasi, yang terus mengasah 
+            keterampilan saya dalam public speaking, desain grafis, teknologi, dan 
+            fotografi, serta memungkinkan saya berkontribusi dalam berbagai acara dan 
+            publikasi kampus.</p>
+        </div>
+        <!-- Add more photos as needed -->
+    </div>
+</body>
+</html>
