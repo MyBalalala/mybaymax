@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>pantai</title>
+    <title>organization</title>
     <style>
         /* Add some basic styling to our gallery */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'comic sans MS', monospace;
             margin: 0;
             padding: 0;
             background-color: #f2f2f2; /* tambahkan warna latar belakang */
         }
+        nav{
+            background-color: darkolivegreen;
+            position: fixed;
+            z-index: 1;
+            width: 100%;
+            color: #F8F0E6;
+        }
+        nav ul li{
+            display: inline-block;
+            margin: 0 15px;
+            padding:0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+        }
+
+        nav ul{
+            margin: 0 auto;
+            text-align: center;
+            padding: 30px;
+        }
+        nav li a{
+            text-decoration: none;
+            color: #F8F0E6;
+        }
+        nav li a:hover{
+            text-decoration: underline;
+        }
+        li.empty{
+            width: 90px;
+            border-top: 1px solid black;
+            top:-5px;
+            position: relative; 
+        }
+
         .gallery {
             display: flex;
             flex-wrap: wrap;
@@ -20,15 +55,15 @@
             background-color: #fff; /* tambahkan warna latar belakang untuk container */
             padding: 15px;
             margin: 15px;
-            width: 300px;
-			height: 565px;
+            width: 305px;
+			height: 580px;
             border: 1px solid #ccc;
             border-radius: 15px; /* tambahkan radius untuk membuat container lebih bulat */
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* tambahkan bayangan untuk membuat container lebih menarik */
             text-align: center; /* center-align text and images */
         }
         .gallery img {
-            width: 270px; /* perbesar ukuran gambar */
+            width: 275px; /* perbesar ukuran gambar */
             height: 250px;
             margin: 10px auto; /* center image with auto margin */
             border-radius: 15px; /* tambahkan radius untuk membuat gambar lebih bulat */
@@ -37,7 +72,6 @@
         .gallery .caption {
             font-size: 18px;
             color: #333;
-            padding: 15px;
             margin: 15px;
             font-weight: bold; /* membuat teks lebih tebal */
         }
@@ -52,7 +86,7 @@
         .header {
             background-color: darkolivegreen; /* tambahkan warna latar belakang untuk header */
             color: #fff; /* tambahkan warna teks untuk header */
-            padding: 25px;
+            padding: 50px;
             text-align: center;
             font-size: 24px; /* membuat teks lebih besar */
             font-weight: bold; /* membuat teks lebih tebal */
@@ -60,6 +94,16 @@
     </style>
 </head>
 <body>
+	<nav>
+		<ul >
+			<li><a href="../index.html">home</a></li>
+			<li><a href="mailto:innayaahlliya008@gmail.com"> email</a></li>
+			<li class="empty"></li>
+			<li><a href="https://www.instagram.com/_aliyahinaya/" target="_blank">instagram</a></li>
+			<li><a href="https://www.tiktok.com/@blalalala_02?is_from_webapp=1&sender_device=pc">tiktok</a></li>
+		</ul>
+	</nav>
+	<header>
     <div class="header">
         <h1>Organizational Experience</h1>
     </div>
